@@ -1,0 +1,330 @@
+.btn-outline-success {
+    background-color: blue; /* Default background color */
+    color: white; /* Text color */
+    border-color: blue; /* Border color */
+  }
+  .btn-outline-success:hover {
+    background-color: lightblue; /* Lighter shade of blue on hover */
+    color: blue; /* Text color on hover */
+  }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#blog-posts {
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#new-post {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* --------------------------------- */
+
+ /* Register Page Centering */
+ .one{
+    width: 100%; /* Allows full width on all devices */
+    max-width: 500px; /* Restricts maximum width for content */
+    margin: 50px auto; /* Centers content horizontally */
+    padding: 20px;
+    border: 2px solid #65a1e1; /* Blue border */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Consistent font for the page */
+  }
+  
+  /* Heading Styling */
+  .one >.heading1 {
+    color: #531eda;
+    text-align: center; /* Centers text horizontally */
+    margin: 0 0 20px; /* Space below the heading */
+  }
+  
+  /* General Form Styling */
+  .one >.custom-form {
+    width: 100%;
+    max-width: 400px; /* Ensures responsive layout */
+    margin: 0 auto; /* Centers the form within the page */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left; /* Left-aligns content inside the form */
+  }
+  
+  /* Labels */
+  .one >.custom-form .form-label {
+    font-weight: bold;
+    color: #333; /* Dark gray for contrast */
+    margin-bottom: 5px;
+    display: block; /* Ensures labels stack above inputs */
+  }
+  
+  /* Input Fields */
+  .one >.custom-form .form-control {
+    width: 100%; /* Full width for inputs */
+    border: 1px solid #898484; /* Neutral gray border */
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px; /* Space below each input */
+  }
+  
+  
+  
+  .one >.custom-form .form-control:focus {
+    border-color: #007bff; /* Highlighted blue border on focus */
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Glow effect */
+    outline: none; /* Remove default browser outline */
+  }
+  
+  /* Form Text */
+  .one >.custom-form .form-text {
+    font-size: 12px;
+    color: #6c757d; /* Subtle gray text */
+    margin-top: -10px; /* Adjust spacing to align better */
+    margin-bottom: 15px;
+  }
+  
+  /* Checkbox */
+  .one >.custom-form .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Space below checkbox */
+  }
+  
+  .one >.custom-form .form-check-input {
+    margin-right: 10px; /* Space between checkbox and label */
+  }
+  
+  .one >.custom-form .form-check-label {
+    font-size: 14px;
+    color: #5d635f; /* Neutral dark gray */
+  }
+  
+  /* Role Section */
+  #role {
+    margin-bottom: 15px; /* Space below role selection */
+  }
+  
+  #role .form-check {
+    margin-bottom: 10px; /* Space between role options */
+  }
+  
+  
+ 
+  
+  /* Submit Button */
+  .one >.custom-form .btn {
+    background-color: #007bffd0; /* Blue button */
+    color: #fff; /* White text */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    width: 100%; /* Full width button */
+  }
+
+
+
+  
+/* -----------------------Login page----------------- */
+#Login {
+    width: 300px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 2px solid #007bff; 
+    border-radius: 10px;
+    background-color: #f9f9f9; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+  }
+  
+  
+  #Login h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  /* Input fields  #Login */
+  #Login input[type="email"],
+  #Login input[type="password"] {
+    width: 90%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Button inside the #Login */
+  #Login button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #Login button:hover {
+    background-color: #007bff; 
+  }
+  
+  
+  /* ------------------------ */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.posts {
+    margin-top: 30px;
+}
+
+.post {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.post p {
+    margin: 0;
+    color: #555;
+}
